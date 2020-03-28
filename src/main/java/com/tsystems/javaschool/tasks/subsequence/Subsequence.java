@@ -34,6 +34,9 @@ public class Subsequence {
             return false;
     }
 
+    /*
+     * Checks is the given lists are valid: not null, not empty and etc.
+     */
     private boolean areListsValid(List x, List y) throws IllegalArgumentException {
         if (x == null || y == null)
             throw new IllegalArgumentException ();
